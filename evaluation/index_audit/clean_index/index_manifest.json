@@ -1,0 +1,175 @@
+{
+  "manifest_version": 1,
+  "audit_generated_at": "2026-11-12T16:39:49.542947+00:00",
+  "build_time": "2026-11-12T16:35:48+00:00",
+  "build_finished_at": "2026-11-12T16:36:37.923959+00:00",
+  "verification_status": "clean_index_verified",
+  "clean_index_verified": true,
+  "structural_verification_passed": true,
+  "git_commit": null,
+  "git_commit_status": "unavailable_no_local_git_history",
+  "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "dependencies": {
+    "llama-index-core": "0.12.52.post1",
+    "llama-index-vector-stores-chroma": "0.4.2",
+    "llama-index-embeddings-dashscope": "0.3.0",
+    "llama-index-readers-file": "0.4.11",
+    "chromadb": "1.5.9",
+    "pypdf": "5.9.0",
+    "dashscope": "1.22.2",
+    "pydantic": "2.14.3"
+  },
+  "sources": [
+    {
+      "original_name": "OBD.pdf",
+      "stored_filename": "20261112_221703_OBD.pdf",
+      "size_bytes": 840253,
+      "page_count": 20,
+      "sha1": "1763d6f9160e9b36db672da224c73360befb5e15",
+      "sha256": "44eb8755776c1782c7a427b9ccbbb05c4f25acec3d330f8075e87a2d0e7b9d4e"
+    },
+    {
+      "original_name": "云台.pdf",
+      "stored_filename": "20261112_221703_云台.pdf",
+      "size_bytes": 5387984,
+      "page_count": 22,
+      "sha1": "28f198c6ff594477af1d2cd5fea3e17d7349fa49",
+      "sha256": "67f60f7617ea1060d40bdbdf87919a4245d118c4be657a829c1807232d11c1ba"
+    },
+    {
+      "original_name": "小米路由器.pdf",
+      "stored_filename": "20261112_221703_小米路由器.pdf",
+      "size_bytes": 1789076,
+      "page_count": 1,
+      "sha1": "a4e5df941c86e250c8672fc1bece7c9d1804a70e",
+      "sha256": "77364d8b6a2ee268e3c1a35cec18bd239bb83e900f5a18163e4fde1526ed5cce"
+    },
+    {
+      "original_name": "空气炸锅.pdf",
+      "stored_filename": "20261112_221703_空气炸锅.pdf",
+      "size_bytes": 2607162,
+      "page_count": 22,
+      "sha1": "660d54637a7e8e336fa5f3894c27719eef0e1a64",
+      "sha256": "a508867ccd58cd7be0c5fb835796f86589d81f535717331048dd9ec646ce02e2"
+    },
+    {
+      "original_name": "高清摄像头.pdf",
+      "stored_filename": "20261112_221703_高清摄像头.pdf",
+      "size_bytes": 11941902,
+      "page_count": 116,
+      "sha1": "06982aadd09dd891d4455d3cbef2a56830d615a4",
+      "sha256": "f1ecc7a14bd86afdbf1c1384bf06795528a08d44854af544320a8d2e17fea23e"
+    }
+  ],
+  "embedding_provider": "dashscope",
+  "embedding_model": "text-embedding-v3",
+  "embedding_dimension": 1024,
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "actual_slice_configuration": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "reader": "llama_index.readers.file.PDFReader",
+    "pdf_extraction": "pypdf extract_text(); one Document per physical page",
+    "chunking": "SentenceSplitter.get_nodes_from_documents per page Document",
+    "table_handling": "none; no table reconstruction",
+    "metadata_aware_chunk_sizing": true
+  },
+  "storage": {
+    "isolated_root": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\storage",
+    "chroma": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\storage\\chroma",
+    "docstore": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\storage\\docstore",
+    "collection": "knowledge_base",
+    "old_index_path_used": false
+  },
+  "node_count": 240,
+  "chroma_node_count": 240,
+  "docstore_node_count": 240,
+  "fingerprints": {
+    "logical_index_fingerprint": "4595dfd3be078f5a05749869fa2fae3e31c2a5ad6227807382f2b8e92d63221c",
+    "node_id_fingerprint": "7a27f2285dbfdf3ae3ba40c72a3db33b1971782914a9ff438d8a8f0d5c0d417c",
+    "document_text_fingerprint": "d334726d3bf85ec3ee10cf57a2df7fa804ca54adfc9786cb12de77bb727c18c2"
+  },
+  "hard_conditions": {
+    "five_pdfs_indexed": true,
+    "source_sha256_unchanged": true,
+    "all_physical_pages_have_nodes": true,
+    "chroma_docstore_ids_equal": true,
+    "node_bodies_equal": true,
+    "normalized_metadata_equal": true,
+    "no_empty_text_nodes": true,
+    "no_confirmed_accidental_duplicates": true,
+    "embedding_complete_and_finite": true,
+    "embedding_dimensions_consistent": true,
+    "storage_paths_isolated": true,
+    "source_metadata_valid": true,
+    "manual_review_passed": true
+  },
+  "pending_manual_review_count": 0,
+  "api_usage": {
+    "embedding_called_during_build": true,
+    "reranker_called": false,
+    "llm_called": false
+  },
+  "status": "clean_index_verified",
+  "final_acceptance_at": "2026-11-12T16:53:14+00:00",
+  "manual_review": {
+    "completed": true,
+    "review_status": "passed",
+    "review_comment": "用户已完成人工复核，确认无实质性问题。",
+    "completed_at": "2026-11-12T16:53:14+00:00",
+    "item_count": 22,
+    "passed_count": 22,
+    "failed_count": 0,
+    "content_changed_nodes": 7,
+    "short_content_nodes": 15,
+    "review_item_ids_sha256": "b2ea0c6979f2d6353cad3065494adfdfb56e2460f13a777a24e195c791938c76",
+    "report_path": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\combined_manual_review.md"
+  },
+  "fingerprint_verification": {
+    "expected": "4595dfd3be078f5a05749869fa2fae3e31c2a5ad6227807382f2b8e92d63221c",
+    "recomputed": "4595dfd3be078f5a05749869fa2fae3e31c2a5ad6227807382f2b8e92d63221c",
+    "matches": true,
+    "verified_at": "2026-11-12T16:53:14+00:00"
+  },
+  "final_storage_verification": {
+    "chroma_node_count": 240,
+    "docstore_node_count": 240,
+    "unique_chroma_ids": 240,
+    "id_sets_equal": true,
+    "body_equal_nodes": 240,
+    "metadata_equal_nodes": 240,
+    "empty_text_nodes": 0,
+    "missing_or_nonfinite_embeddings": 0,
+    "embedding_dimensions": [
+      1024
+    ],
+    "documents_covered": 5,
+    "physical_pages_covered": 181,
+    "node_data_modified_during_acceptance": false
+  },
+  "comparison": {
+    "report_path": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\comparison\\old_vs_clean_comparison.md",
+    "old_and_clean_node_counts_equal": true,
+    "deterministically_paired_nodes": 240,
+    "body_equal_paired_nodes": 233,
+    "content_changed_paired_nodes": 7,
+    "new_nodes": 0,
+    "missing_nodes": 0,
+    "manual_review_result": "7 content-changed nodes accepted"
+  },
+  "known_limitations": [
+    "PDF image-only labels are not converted to searchable text; C920 physical pages 109 and 113 remain sparse.",
+    "PDF tables are extracted as plain text and are not structurally reconstructed.",
+    "OCR and visual semantic completeness are outside the accepted text-index boundary."
+  ],
+  "final_acceptance": {
+    "status": "clean_index_verified",
+    "frozen": true,
+    "report_path": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\final_acceptance_report.md",
+    "manual_review_report_path": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\combined_manual_review.md",
+    "comparison_report_path": "D:\\VScode\\word\\llamaIndex_rag\\evaluation\\index_audit\\clean_index\\comparison\\old_vs_clean_comparison.md",
+    "accepted_at": "2026-11-12T16:53:14+00:00"
+  }
+}

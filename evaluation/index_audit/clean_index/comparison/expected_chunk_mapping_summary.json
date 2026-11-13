@@ -1,0 +1,47 @@
+{
+  "expected_old_ids": 40,
+  "mapped_clean_ids": 40,
+  "mapping_row_count": 52,
+  "supplementary_mapping_count": 0,
+  "question_count": 50,
+  "evidence_complete_questions": 50,
+  "focus_review": {
+    "MODEL-09": {
+      "question_id": "MODEL-09",
+      "expected_chunks_original": [
+        "27d1be4a-a078-4d78-938f-eb8cdb3acd27"
+      ],
+      "expected_chunks_clean": [
+        "efb3838f-1c43-4bd4-a313-511cc4dca692"
+      ],
+      "evidence_mode": "alternative",
+      "evidence_fragments": [
+        {
+          "fragment": "Osmo Mobile 6 是适配手机的高精度三轴云台",
+          "present": true
+        }
+      ],
+      "evidence_complete": true,
+      "focus_review": true
+    },
+    "CROSS-09": {
+      "question_id": "CROSS-09",
+      "expected_chunks_original": [
+        "c1c1e33c-3a2d-437e-ba04-7959807500db"
+      ],
+      "expected_chunks_clean": [
+        "507a5ecb-fc0f-492e-9c3e-80d132d278a4"
+      ],
+      "evidence_mode": "alternative",
+      "evidence_fragments": [
+        {
+          "fragment": "确保主路由器与子路由器的距离大于一米，否则两个路由器会相 互干扰并影响配网。",
+          "present": true
+        }
+      ],
+      "evidence_complete": true,
+      "focus_review": true
+    }
+  },
+  "status": "passed"
+}

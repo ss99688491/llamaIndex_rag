@@ -1,0 +1,6 @@
+﻿document_name,old_node_count,new_node_count,node_count_delta,old_pages_with_nodes,new_pages_with_nodes,old_missing_physical_pages_from_union,new_missing_physical_pages_from_union,page_coverage_equal,page_chunk_count_differences,paired_nodes,identical,metadata_only_changed,content_changed,id_changed_but_content_same,new_node,missing_node,slice_boundary_changed,metadata_full_equal,filename_equal,raw_document_id_equal,normalized_document_id_equal,physical_page_equal,page_label_equal,old_short_candidates,new_short_candidates
+OBD.pdf,24,24,0,20,20,,,True,,24,0,0,0,24,0,0,0,0,24,0,24,24,24,0,1
+云台.pdf,29,29,0,22,22,,,True,,29,0,0,2,27,0,0,2,0,29,0,29,29,29,3,1
+小米路由器.pdf,12,12,0,1,1,,,True,,12,0,0,1,11,0,0,1,0,12,0,12,12,12,0,0
+空气炸锅.pdf,34,34,0,22,22,,,True,,34,0,0,0,34,0,0,0,0,34,0,34,34,34,4,4
+高清摄像头.pdf,141,141,0,116,116,,,True,,141,0,0,4,137,0,0,4,0,141,0,141,141,141,7,9
